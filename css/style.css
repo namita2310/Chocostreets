@@ -740,7 +740,7 @@ a.botton-agileits:hover {
     letter-spacing: .5px;
 }
 p.para-w3-agile {
-    color: #999999;
+    color: #999;
     font-size: 15px;
     line-height: 1.8em;
     margin: 0;
@@ -1369,6 +1369,10 @@ ul.about-agile li i {
     line-height: 225px;
     box-shadow: 0px 0px 10px 7px #FFFFFF;
 }
+hr{
+	height:2px;
+	color: indigo;
+}
 .w3_agileits_sub_work>.agileits_w3layouts_work {
     position: absolute;
     top: 0px;
@@ -1458,13 +1462,13 @@ ul.about-agile li i {
 .ih-item.circle {
     position: relative;
     width: 275px;
-    height: 275px;
+    /*height: 275px;*/
     margin: 0 auto;
 }
 .ih-item.circle .img {
   position: relative;
   width: 275px;
-  height: 275px;
+  height: 365px;
 }
 .ih-item.circle .img:before {
     position: absolute;
@@ -1478,7 +1482,8 @@ ul.about-agile li i {
     transition: all 0.35s ease-in-out;
 }
 .ih-item.circle .img img {
-    width: 100%;
+	width: 100%;
+	heigth:250px;
 }
 .ih-item.circle .info {
   position: absolute;
@@ -1809,7 +1814,7 @@ ul.about-agile li i {
     margin: 0 0 0.5em 0;
 }
 .w3-agile-grid p, .connect-w3-agile p {
-    color: #707480;
+    color:black;
     font-size: 14px;
     line-height: 2em;
     margin: 0;
@@ -1849,6 +1854,7 @@ ul.about-agile li i {
 .w3-address-right p{
 	margin:1em 0 0 0;
 	font-size:.9em;
+	color: cornsilk;
 }
 .w3-address-right p a {
     color: #fff;
@@ -2558,7 +2564,8 @@ h3.agileits-icons-title {
 		line-height: 41px;
 	}
 	.about-img-right img {
-		width: 228px;
+		width: 408px;
+		height:520px;	
 	}
 	.agileits_w3layouts-map iframe {
 		min-height: 482px;
@@ -3709,5 +3716,9 @@ h3.agileits-icons-title {
 	#PPMiniCart ul {
 		width: 293px!important;
 	}
+}
+#abcho{
+	height: 100px;
+	width:308px;
 }
 /*--//responsive--*/
