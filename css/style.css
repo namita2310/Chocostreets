@@ -1483,7 +1483,7 @@ hr{
 }
 .ih-item.circle .img img {
 	width: 100%;
-	heigth:250px;
+	height:350px;
 }
 .ih-item.circle .info {
   position: absolute;
@@ -3721,6 +3721,40 @@ h3.agileits-icons-title {
 	height: 100px;
 	width:308px;
 }
+.mobile{
+	margin-left: 250px;
+	
+}
+
+.berry{
+	height: 350px;
+width: 300px;
+}
+#assorted{
+	height:200px;
+	padding-bottom:30px;
+}
+#assorted1{
+	height:375px; padding-top:180px;
+}
+#cho{
+	padding-top:750px;
+}
+#cho1{
+	height:200px;
+}
+#cho2{
+	height:375px; padding-top:170px;
+}
+#kid{
+	padding-top:550px;
+}
+#kid5{
+	height:350px;
+}
+#foot{
+	padding-top:50px;
+}
 @media (max-width: 440px){
 .about-img-right img {
     width: 350px;
@@ -3729,8 +3763,63 @@ h3.agileits-icons-title {
 	padding-left:0px;
 	padding-right:100px;
 }
-.servies-agileinfo{
+.col-md-4.servies-agileinfo{
 	margin-left: 25px;
+	/* position:absolute; */
+	/* left:-9999px; */
 }
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+#kid5{
+	height:240px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.ih-item.circle {
+    width: 238px;
+    height: 238px;
+    margin-bottom: 30px;
+}
+/* .ih-item.circle .img {
+    width: 100px;
+    height: 0px;
+} */
+.ih-item.circle .img img {
+    width: 100%;
+    
+    height: 240px;
+}
+#assorted{
+	margin-bottom: 70px;
+}
+#assorted1{
+	padding-top:0px;
+	
+    height: 240px;
+}
+#cho1{
+	margin-bottom: 70px;
+}
+
+#cho{
+	padding-top:0px;
+}
+#kid{
+	padding-top: 0px;
+}
+#cho2 {
+    height: 205px;
+    padding-top: 0px;
+}
+#foot{
+	padding-top:0px;
+}
+
 }
 /*--//responsive--*/
