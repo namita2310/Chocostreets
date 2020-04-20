@@ -3721,4 +3721,16 @@ h3.agileits-icons-title {
 	height: 100px;
 	width:308px;
 }
+@media (max-width: 440px){
+.about-img-right img {
+    width: 350px;
+    padding-bottom: 130px;
+	padding-top: 90px;
+	padding-left:0px;
+	padding-right:100px;
+}
+.servies-agileinfo{
+	margin-left: 25px;
+}
+}
 /*--//responsive--*/
